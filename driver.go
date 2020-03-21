@@ -9,8 +9,8 @@ import (
 )
 
 type Driver struct {
-	Uuid string 'json:"uuid"'
-	Name string 'json:"name"'
+	Uuid string `json:"uuid"`
+	Name string `json:"name"`
 }
 
 type Drivers struct {
